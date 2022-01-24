@@ -1,0 +1,34 @@
+#TableAlign th{
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+}
+#TableAlign td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dynamicTable td{
+    box-shadow: 0px 0px 1px black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dynamicTable{
+border-radius: 5px;
+display: flex;
+/* position: relative; */
+/* left: 690px; */
+/* bottom: 490px; */
+}
+#table_container{
+    display: flex;
+    
+}
+
+img{
+    position: absolute;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
