@@ -16,113 +16,114 @@
 
     <div id="table_container">
         <div>
-        <fieldset style="height: max-content; width: max-content;">
-            <legend>Assignment_Table</legend>
-            <form>
-                <table class="table table-bordered">
-                    <tr>
-                        <td><label for="UserName">User Name:</label></td>
-                        <td><input type="text" id="NameData"></td>
-                        <td> <span id="toShowError"></span></td>
-                    </tr>
-                    <tr>
-                        <td><label for="Password">Password:</label></td>
-                        <td>
-                            <input type="password" id="PasswordVal">
-                        </td>
-                        <td> <span id="toShowpassError"></span></td>
-                    </tr>
-                    <tr>
-                        <td><label for="age">Age:</label></td>
-                        <td>
-                            <input type="age" id="AgeValidation">
+            <fieldset style="height: max-content; width: max-content;">
+                <legend>Assignment_Table</legend>
+                <form>
+                    <table class="table table-bordered">
+                        <tr>
+                            <td><label for="UserName">User Name:</label></td>
+                            <td><input type="text" id="NameData"></td>
+                            <td> <span id="toShowError"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Password">Password:</label></td>
+                            <td>
+                                <input type="password" id="PasswordVal">
+                            </td>
+                            <td> <span id="toShowpassError"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label for="age">Age:</label></td>
+                            <td>
+                                <input type="age" id="AgeValidation">
 
-                        </td>
-                        <td><span id="ageShowError"></span></td>
+                            </td>
+                            <td><span id="ageShowError"></span></td>
 
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="Email">Email:</label>
-                        </td>
-                        <td>
-                            <input type="email" id="emailvalidInp">
-                        </td>
-                        <td><span id="toShowEmailError"></span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Email">Email:</label>
+                            </td>
+                            <td>
+                                <input type="email" id="emailvalidInp">
+                            </td>
+                            <td><span id="toShowEmailError"></span></td>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="Gender">Gender</label>
-                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Gender">Gender</label>
+                            </td>
 
-                        <td> <label for="Male">Male</label>
-                            <input type="radio" name="Gender" id="maleRadio" value="Male">
-                            <label for="Female">Female</label>
-                            <input type="radio" name="Gender" id="femaleRadio" value="Female">
-                        </td>
-                        <td><span id="toShowRadioError"></span></td>
+                            <td> <label for="Male">Male</label>
+                                <input type="radio" name="Gender" id="maleRadio" value="Male">
+                                <label for="Female">Female</label>
+                                <input type="radio" name="Gender" id="femaleRadio" value="Female">
+                            </td>
+                            <td><span id="toShowRadioError"></span></td>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="City">State:</label>
-                        </td>
-                        <td>
-                            <select name="" id="selectNameValue">
-                                <option value="empty">Please select...</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="TamilNadu">TamilNadu</option>
-                                <option value="Maharastra">Maharastra</option>
-                                <option value="Odissa">Odissa</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Jammu kashmir">Jammu kashmir</option>
-                            </select>
-                        </td>
-                        <td><span id="toShowStatesError"></span></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><label for="">Education Details</label>
-                            <label for="">SSLC</label>
-                            <input type="checkbox" id="sslcInput">
-                            <label for="">PUC</label>
-                            <input type="checkbox" id="PUCInput">
-                            <label for="">BE</label>
-                            <input type="checkbox" id="BEInput">
-                        </td>
-                        <td><span id="toShowEducationDetailsError"></span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="City">State:</label>
+                            </td>
+                            <td>
+                                <select name="" id="selectNameValue">
+                                    <option value="empty">Please select...</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="TamilNadu">TamilNadu</option>
+                                    <option value="Maharastra">Maharastra</option>
+                                    <option value="Odissa">Odissa</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Jammu kashmir">Jammu kashmir</option>
+                                </select>
+                            </td>
+                            <td><span id="toShowStatesError"></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><label for="">Education Details</label>
+                                <label for="">SSLC</label>
+                                <input type="checkbox" id="sslcInput">
+                                <label for="">PUC</label>
+                                <input type="checkbox" id="PUCInput">
+                                <label for="">BE</label>
+                                <input type="checkbox" id="BEInput">
+                            </td>
+                            <td><span id="toShowEducationDetailsError"></span></td>
 
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="checkbox" id="agreeCheck"><label for="">Agree to all Terms and
-                                Conditions</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="checkbox" id="agreeCheck"><label for="">Agree to all Terms and
+                                    Conditions</label></td>
 
-                        <td><span id="toShowCheckBoxError"></span></td>
-                    </tr>
-                </table>
-                <button type="reset" onclick="resetButton()">Reset</button>
-            </form>
-            <button id="buttonBlock">submit</button>
-        </fieldset>
+                            <td><span id="toShowCheckBoxError"></span></td>
+                        </tr>
+                    </table>
+                    <button type="reset" onclick="resetButton()">Reset</button>
+                </form>
+                <button id="buttonBlock">submit</button>
+            </fieldset>
+        </div>
+        <div>
+            <br>
+            <table id="dynamicTable">
+                <tr id="TableAlign">
+                    <th>UserName</th>
+                    <th>Password</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>State</th>
+                    <th>EducationDetails</th>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div>
-        <br>
-        <table id="dynamicTable">
-            <tr id="TableAlign">
-                <th>UserName</th>
-                <th>Password</th>
-                <th>Age</th>
-                <th>Email</th>
-                <th>Gender</th>
-                <th>State</th>
-                <th>EducationDetails</th>
-            </tr>
-        </table>
-    </div>
-</div>
-<button>hello</button>
-<button>hi</button>
+    <button>hello</button>
+    <button>hi</button>
+    <button>sangeetha</button>
 
 
     <script src="./LocalStorage.js"></script>
